@@ -1,7 +1,5 @@
 package uk.co.smitek;
 
-import org.assertj.core.api.Condition;
-import org.assertj.core.internal.Conditions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;

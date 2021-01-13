@@ -2,7 +2,6 @@ package uk.co.smitek;
 
 import lombok.Getter;
 import lombok.SneakyThrows;
-import org.apache.commons.io.IOUtils;
 import org.apache.xmlbeans.impl.xsd2inst.SchemaInstanceGenerator;
 import org.apache.xmlbeans.impl.xsd2inst.SchemaInstanceGenerator.Xsd2InstOptions;
 import org.w3c.dom.Document;
@@ -13,20 +12,14 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.stream.Collectors;
 
-import static java.lang.String.format;
 import static java.lang.System.lineSeparator;
 import static java.util.stream.Collectors.joining;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
-//import org.apache.xmlbeans.impl.SchemaInstanceGeneratorLocal;
 
 public class XsdPathTypeGenerator {
 

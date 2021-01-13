@@ -302,6 +302,9 @@ public class SchemaTypeSystemCompiler
             if (sourcesToCopyMap != null)
                 sourcesToCopyMap.putAll(state.sourceCopyMap());
 
+            // We don't want to fail on errors
+            // for our monkey patched code
+
 //            if (errorWatcher.hasError())
 //            {
 //                // EXPERIMENTAL: recovery from compilation errors and partial type system

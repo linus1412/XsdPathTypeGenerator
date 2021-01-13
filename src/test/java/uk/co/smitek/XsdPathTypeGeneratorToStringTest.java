@@ -27,7 +27,6 @@ class XsdPathTypeGeneratorToStringTest {
         final String pathTypes = xsdPathTypeGenerator.generateString("employee", "/simple.xsd");
         assertThat(pathTypes).isEqualTo(expectedString);
 
-xsdPathTypeGenerator.generateAndPrint("employee", "/simple.xsd");
     }
 
 }
