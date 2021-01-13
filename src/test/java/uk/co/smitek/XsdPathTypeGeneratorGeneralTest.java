@@ -27,7 +27,7 @@ class XsdPathTypeGeneratorGeneralTest {
 
 
     @Test
-    void elementWithAttributeXsdTypes() {
+    public void elementWithAttributeXsdTypes() {
         assertThat(pathTypes).contains(entry("IRenvelope/SAtrust/AttachedFiles/Attachment","xsd:base64Binary"));
         assertThat(pathTypes).contains(entry("IRenvelope/SAtrust/AttachedFiles/Attachment@FileFormat","xsd:string"));
     }

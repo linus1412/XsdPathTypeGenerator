@@ -1,4 +1,4 @@
-# XSD Path Generator
+# Java XSD Path Generator
 
 ## What it does
 
