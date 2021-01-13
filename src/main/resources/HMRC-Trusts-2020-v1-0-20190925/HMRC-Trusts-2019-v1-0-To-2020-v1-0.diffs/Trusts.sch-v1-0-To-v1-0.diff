@@ -1,0 +1,9 @@
+@@
+ 
+ <sch:schema queryBinding='exslt' xmlns:sch='http://purl.oclc.org/dsdl/schematron'>
+   <sch:title>Schematron for Trusts</sch:title>
+   <sch:ns prefix='hd' uri='http://www.govtalk.gov.uk/CM/envelope'></sch:ns>
+   <sch:ns prefix='dsig' uri='http://www.w3.org/2000/09/xmldsig#'></sch:ns>
+-  <sch:ns prefix='tru' uri='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'></sch:ns>
++  <sch:ns prefix='tru' uri='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'></sch:ns>
+ </sch:schema>

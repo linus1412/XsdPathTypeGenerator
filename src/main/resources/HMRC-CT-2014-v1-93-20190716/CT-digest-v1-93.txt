@@ -1,0 +1,12 @@
+cb6adcfca561ddf9e219f8a9c356e6f7  CT-2014-descriptiveSample-v1-93.xml
+14f98c0cc216aa3239ab1c230fefc963  CT-2014-schemaValidSample-v1-93.xml
+0b37e42f0812525d1dc63d76bb4fd707  CT-2014-v1-93.sch
+70d939549d72346e817ceb5b27ad2bb7  CT-2014-v1-93.xsd
+a9632762c1b177bf40f461068db9dffa  CT-2014-v1-93.xslt
+cabb465fd7c2b5c0507b0ae199a137ac  CT-specDoc-v1-93.pdf
+a1b646c03fd941c02d9ee56b5e2daa16  CT-testCases.zip
+177ce850ba81d900c538fc9521c7a7cf  How-To-Guide-Diff-Logs-v1-93.pdf
+2d73d19199a385eaa11cc3cfc4bd2a2b  README-v1-93
+0d1103b850767f980103bfbfd669eec2  SchemaErrorMessages-v1-93.pdf
+e34b476353931fb770b205f6b3722e7c  coverageReports-v1-93.html
+1ce59176d444f24a11df2123386314f9  envelope-v2-0-HMRC.xsd

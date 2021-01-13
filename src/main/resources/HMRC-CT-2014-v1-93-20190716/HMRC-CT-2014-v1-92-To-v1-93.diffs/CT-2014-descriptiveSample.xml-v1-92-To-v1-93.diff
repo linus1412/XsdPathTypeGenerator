@@ -1,0 +1,46 @@
+@@
+ <!--DESCRIPTION of following node: Machinery and plant - main pool-->
+           <ct:MachineryAndPlantMainPool>
+             <ct:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:BalancingCharges>
+             <ct:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:CapitalAllowances>
+           </ct:MachineryAndPlantMainPool>
++          <ct:StructuresAndBuildingsCapitalAllowances Currency='Currency symbol such as GBP or EUR'>Structures and buildings - Capital allowances</ct:StructuresAndBuildingsCapitalAllowances>
++<!--DESCRIPTION of following node: Electric charge-points-->
++          <ct:ElectricChargePoints>
++            <ct:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:BalancingCharges>
++            <ct:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:CapitalAllowances>
++          </ct:ElectricChargePoints>
+ <!--DESCRIPTION of following node: Business premises renovation included in calculation-->
+           <ct:BusinessPremisesRenovationIncluded>
+             <ct:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:BalancingCharges>
+             <ct:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:CapitalAllowances>
+           </ct:BusinessPremisesRenovationIncluded>
+@@
+           </ct:Others>
+         </ct:AllowancesAndCharges>
+ <!--DESCRIPTION of following node: Charges and allowances not included in calculation of trading profits and losses-->
+         <ct:NotIncluded>
+           <ct:AIACapitalAllowancesNotInc Currency='Currency symbol such as GBP or EUR'>Annual investment allowance not included in calculation</ct:AIACapitalAllowancesNotInc>
++          <ct:StructuresAndBuildingsCapitalAllowances Currency='Currency symbol such as GBP or EUR'>Structures and buildings - Capital allowances</ct:StructuresAndBuildingsCapitalAllowances>
++<!--DESCRIPTION of following node: Electric charge-points-->
++          <ct:ElectricChargePoints>
++            <ct:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:BalancingCharges>
++            <ct:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:CapitalAllowances>
++          </ct:ElectricChargePoints>
+ <!--DESCRIPTION of following node: Business premises renovation not included-->
+           <ct:BusinessPremisesRenovationNotIncluded>
+             <ct:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:BalancingCharges>
+             <ct:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Standard decimal type</ct:CapitalAllowances>
+           </ct:BusinessPremisesRenovationNotIncluded>
+@@
+         </ct:NotIncluded>
+         <ct:QualifyingExpenditure>
+           <ct:MachineryAndPlantExpenditure Currency='Currency symbol such as GBP or EUR'>Machinery and plant on which first year allowance is claimed</ct:MachineryAndPlantExpenditure>
+           <ct:DesignatedEnvironmentallyFriendlyMachineryAndPlant Currency='Currency symbol such as GBP or EUR'>Designated environmentally friendly machinery and plant</ct:DesignatedEnvironmentallyFriendlyMachineryAndPlant>
+           <ct:MachineryAndPlantLongLife Currency='Currency symbol such as GBP or EUR'>Machinery and plant on long-life assets and integral features</ct:MachineryAndPlantLongLife>
++          <ct:StructuresAndBuildings Currency='Currency symbol such as GBP or EUR'>Structures and buildings</ct:StructuresAndBuildings>
+           <ct:OtherMachineryAndPlant Currency='Currency symbol such as GBP or EUR'>Other machinery and plant</ct:OtherMachineryAndPlant>
+         </ct:QualifyingExpenditure>
+ <!--DESCRIPTION of following node: Losses, deficits and excess amounts-->
+         <ct:LossesDeficitsAndExcess>
+           <ct:AmountArising>

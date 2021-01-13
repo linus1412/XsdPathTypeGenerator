@@ -1,0 +1,61 @@
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<xsd:schema version='1.92' elementFormDefault='qualified' attributeFormDefault='unqualified' id='CT' targetNamespace='http://www.govtalk.gov.uk/taxation/CT/5' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/5'>
++<xsd:schema version='1.93' elementFormDefault='qualified' attributeFormDefault='unqualified' id='CT' targetNamespace='http://www.govtalk.gov.uk/taxation/CT/5' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/5'>
+   <xsd:annotation>
+     <xsd:documentation>HMRC FBI Corporation Tax Return</xsd:documentation>
+     <xsd:appinfo>
+       <gt:KeyWords xmlns:gt='http://www.govtalk.gov.uk/CM/core'>taxation, Corporation, FBI, File By Internet, HMRC, CT600, CT600A, CT600B, CT600C, CT600D, CT600E, CT600F, CT600G, CT600H, CT600I, CT600J, CT600K</gt:KeyWords>
+       <gms:Metadata xmlns:gms='http://www.govtalk.gov.uk/CM/gms-xs'>
+@@
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>2014-07-15</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2019-03-25</gms:Modified>
++          <gms:Modified>2019-07-16</gms:Modified>
+         </gms:Date>
+         <gms:Identifier>{http://www.govtalk.gov.uk/taxation/CT/5}CT</gms:Identifier>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+@@
+                 <xsd:complexType>
+                   <xsd:sequence>
+                     <xsd:element name='AIACapitalAllowancesInc' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='MachineryAndPlantSpecialRatePool' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='MachineryAndPlantMainPool' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
++                    <xsd:element name='StructuresAndBuildingsCapitalAllowances' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
++                    <xsd:element name='ElectricChargePoints' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='BusinessPremisesRenovationIncluded' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='EnterpriseZones' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='ZeroEmissionsGoodsVehicles' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='Others' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                   </xsd:sequence>
+@@
+               </xsd:element>
+               <xsd:element name='NotIncluded' minOccurs='0' maxOccurs='1'>
+                 <xsd:complexType>
+                   <xsd:sequence>
+                     <xsd:element name='AIACapitalAllowancesNotInc' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
++                    <xsd:element name='StructuresAndBuildingsCapitalAllowances' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
++                    <xsd:element name='ElectricChargePoints' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='BusinessPremisesRenovationNotIncluded' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='EnterpriseZones' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='ZeroEmissionsGoodsVehicles' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='OtherAllowancesAndCharges' type='ct:ChargeAndAllowance' minOccurs='0' maxOccurs='1'></xsd:element>
+                   </xsd:sequence>
+@@
+                 <xsd:complexType>
+                   <xsd:sequence>
+                     <xsd:element name='MachineryAndPlantExpenditure' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='DesignatedEnvironmentallyFriendlyMachineryAndPlant' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='MachineryAndPlantLongLife' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
++                    <xsd:element name='StructuresAndBuildings' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
+                     <xsd:element name='OtherMachineryAndPlant' type='ct:CTwholePoundStructure' minOccurs='0' maxOccurs='1'></xsd:element>
+                   </xsd:sequence>
+                 </xsd:complexType>
+               </xsd:element>
+               <xsd:element name='LossesDeficitsAndExcess' minOccurs='0' maxOccurs='1'>

@@ -1,0 +1,91 @@
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1 SAtrust-v1-0.xsd' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'>
++<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1 SAtrust-v1-0.xsd' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'>
+   <hd:EnvelopeVersion>2.0</hd:EnvelopeVersion>
+   <hd:Header>
+     <hd:MessageDetails>
+       <hd:Class>HMRC-SAMPLE-CLASS</hd:Class>
+       <hd:Qualifier>request</hd:Qualifier>
+@@
+             <tru:CapitalAllowancesAndBalancingCharges>
+               <tru:CapitalAllowancesAtHigherRate Currency='GBP'>13.12</tru:CapitalAllowancesAtHigherRate>
+               <tru:BalancingChargesAtHigherRate Currency='GBP'>13.12</tru:BalancingChargesAtHigherRate>
+               <tru:CapitalAllowancesAtLowerRate Currency='GBP'>13.12</tru:CapitalAllowancesAtLowerRate>
+               <tru:BalancingChargesAtLowerRate Currency='GBP'>13.12</tru:BalancingChargesAtLowerRate>
++              <tru:ElectricChargePointAllowanceCapitalAllowances Currency='GBP'>13.12</tru:ElectricChargePointAllowanceCapitalAllowances>
++              <tru:TheStructureAndBuildingsAllowanceCapitalAllowances Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowanceCapitalAllowances>
++              <tru:ElectricChargePointAllowanceBalancingCharges Currency='GBP'>13.12</tru:ElectricChargePointAllowanceBalancingCharges>
+               <tru:OtherCapitalAllowances Currency='GBP'>13.12</tru:OtherCapitalAllowances>
+               <tru:BalancingChargesForOtherCapitalAllowances Currency='GBP'>13.12</tru:BalancingChargesForOtherCapitalAllowances>
+               <tru:TotalAllowances Currency='GBP'>13.12</tru:TotalAllowances>
+               <tru:TotalBalancingCharges Currency='GBP'>13.12</tru:TotalBalancingCharges>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+@@
+             </tru:Expenses>
+             <tru:NetProfit Currency='GBP'>13.12</tru:NetProfit>
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+               <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
+               <tru:TotalAdditions Currency='GBP'>13.12</tru:TotalAdditions>
+               <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+             </tru:TaxAdjustments>
+             <tru:LossBroughtForward Currency='GBP'>13.12</tru:LossBroughtForward>
+@@
+             </tru:Expenses>
+             <tru:NetProfitLoss Currency='GBP'>13.12</tru:NetProfitLoss>
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+               <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
++              <tru:TheStructureAndBuildingsAllowance Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowance>
+               <tru:TotalTaxAdditions Currency='GBP'>13.12</tru:TotalTaxAdditions>
+               <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+               <tru:CostsOfReplacingDomesticItems Currency='GBP'>13.12</tru:CostsOfReplacingDomesticItems>
+               <tru:TotalTaxReductions Currency='GBP'>13.12</tru:TotalTaxReductions>
+@@
+               <tru:TotalExpenditure Currency='GBP'>13.12</tru:TotalExpenditure>
+               <tru:NetProfitLoss Currency='GBP'>13.12</tru:NetProfitLoss>
+               <tru:AdditionsToNetProfit>
+                 <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+                 <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++                <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
++                <tru:TheStructureAndBuildingsAllowance Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowance>
+                 <tru:TotalAdditions Currency='GBP'>13.12</tru:TotalAdditions>
+               </tru:AdditionsToNetProfit>
+               <tru:DeductionsFromNetProfit>
+                 <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+                 <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+@@
+               <tru:ReliefVulnerableBeneficiaryNotInUK Currency='GBP'>13.12</tru:ReliefVulnerableBeneficiaryNotInUK>
+               <tru:AnnualExemptAmount Currency='GBP'>13.12</tru:AnnualExemptAmount>
+               <tru:TaxableGains Currency='GBP'>13.12</tru:TaxableGains>
+             </tru:OtherPropertyAssetsAndGains>
+             <tru:TaxableGainsThatQualifyForER Currency='GBP'>13.12</tru:TaxableGainsThatQualifyForER>
++            <tru:TaxableGainsQualifyingForInvestorsRelief Currency='GBP'>13.12</tru:TaxableGainsQualifyingForInvestorsRelief>
+             <tru:NumberOfTrusts>10</tru:NumberOfTrusts>
+             <tru:DisabledPerson>yes</tru:DisabledPerson>
+             <tru:EstimateValuationUsed>yes</tru:EstimateValuationUsed>
+             <tru:ReliefClaimed>yes</tru:ReliefClaimed>
+             <tru:ClaimingCloggedLosses>yes</tru:ClaimingCloggedLosses>
+@@
+                 <tru:ChargeableGains Currency='GBP'>13.12</tru:ChargeableGains>
+               </tru:PersonBecameNonResidentRow>
+             </tru:PersonBecameNonResident>
+             <tru:NonresidentCapitalGains>
+               <tru:SubmittedNonresidentCGT>yes</tru:SubmittedNonresidentCGT>
+-              <tru:TaxableGainsOrLosses Currency='GBP'>13.12</tru:TaxableGainsOrLosses>
+-              <tru:CGTalreadyCharged Currency='GBP'>13.12</tru:CGTalreadyCharged>
++              <tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals>
++              <tru:NRCGTalreadyPaid Currency='GBP'>13.12</tru:NRCGTalreadyPaid>
+             </tru:NonresidentCapitalGains>
+             <tru:EntrepreneursRelief>
+               <tru:ReliefClaimed>yes</tru:ReliefClaimed>
+               <tru:AmountClaimedOnGainsDeferredFromBefore23062010 Currency='GBP'>13.12</tru:AmountClaimedOnGainsDeferredFromBefore23062010>
+               <tru:AmountOnOtherGains Currency='GBP'>13.12</tru:AmountOnOtherGains>

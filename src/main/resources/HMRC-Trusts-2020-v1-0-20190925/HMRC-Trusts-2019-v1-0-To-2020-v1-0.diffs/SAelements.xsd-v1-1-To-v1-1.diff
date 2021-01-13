@@ -1,0 +1,13 @@
+@@
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>07-02-07</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2018-09-18</gms:Modified>
++          <gms:Modified>2019-09-25</gms:Modified>
+         </gms:Date>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+           <gms:ProvidesDefinitionOf>BoxType</gms:ProvidesDefinitionOf>

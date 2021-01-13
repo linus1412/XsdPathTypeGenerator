@@ -1,0 +1,445 @@
+
+
+Trusts-descriptiveSample.xml-v1-0-To-v1-0
+
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<hd:GovTalkMessage xmlns:dsig='http://www.w3.org/2000/09/xmldsig#' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'>
++<hd:GovTalkMessage xmlns:dsig='http://www.w3.org/2000/09/xmldsig#' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'>
+   <hd:EnvelopeVersion>EnvelopeVersion</hd:EnvelopeVersion>
+   <hd:Header>
+     <hd:MessageDetails>
+       <hd:Class>Identifier to allow gateway to determine target department, queue and validation needed.</hd:Class>
+       <hd:Qualifier>eGIF Class qualifier</hd:Qualifier>
+@@
+             </tru:BusinessDetails>
+ <!--DESCRIPTION of following node: Capital allowances and balancing charges-->
+             <tru:CapitalAllowancesAndBalancingCharges>
+               <tru:CapitalAllowancesAtHigherRate Currency='Currency symbol such as GBP or EUR'>Capital allowances at higher rate on equipment including cars with lower CO2 emissions</tru:CapitalAllowancesAtHigherRate>
+               <tru:BalancingChargesAtHigherRate Currency='Currency symbol such as GBP or EUR'>Balancing charges at higher rate on equipment including cars with lower CO2 emissions</tru:BalancingChargesAtHigherRate>
+-              <tru:CapitalAllowancesAtLowerRate Currency='Currency symbol such as GBP or EUR'>Capital allowances at lower rate on equipment including cars with lower CO2 emissions</tru:CapitalAllowancesAtLowerRate>
+-              <tru:BalancingChargesAtLowerRate Currency='Currency symbol such as GBP or EUR'>Balancing charges at lower rate on equipment including cars with lower CO2 emissions</tru:BalancingChargesAtLowerRate>
++              <tru:CapitalAllowancesAtLowerRate Currency='Currency symbol such as GBP or EUR'>Capital allowances at lower rate on equipment including cars with higher CO2 emissions</tru:CapitalAllowancesAtLowerRate>
++              <tru:BalancingChargesAtLowerRate Currency='Currency symbol such as GBP or EUR'>Balancing charges at lower rate on equipment including cars with higher CO2 emissions</tru:BalancingChargesAtLowerRate>
++              <tru:ElectricChargePointAllowanceCapitalAllowances Currency='Currency symbol such as GBP or EUR'>Electric charge-point allowance (Capital allowances)</tru:ElectricChargePointAllowanceCapitalAllowances>
++              <tru:TheStructureAndBuildingsAllowanceCapitalAllowances Currency='Currency symbol such as GBP or EUR'>The Structure and Buildings Allowance (Capital allowances)</tru:TheStructureAndBuildingsAllowanceCapitalAllowances>
++              <tru:ElectricChargePointAllowanceBalancingCharges Currency='Currency symbol such as GBP or EUR'>Electric charge-point allowance (Balancing charges)</tru:ElectricChargePointAllowanceBalancingCharges>
+               <tru:OtherCapitalAllowances Currency='Currency symbol such as GBP or EUR'>CA - 100% enhanced &amp; other capital allowances </tru:OtherCapitalAllowances>
+               <tru:BalancingChargesForOtherCapitalAllowances Currency='Currency symbol such as GBP or EUR'>Balancing charges - 100% enhanced &amp; other capital allowances</tru:BalancingChargesForOtherCapitalAllowances>
+               <tru:TotalAllowances Currency='Currency symbol such as GBP or EUR'>Total allowances</tru:TotalAllowances>
+               <tru:TotalBalancingCharges Currency='Currency symbol such as GBP or EUR'>Total balancing charges</tru:TotalBalancingCharges>
+               <tru:EnhancedCapitalAllowances>Enhanced capital allowances</tru:EnhancedCapitalAllowances>
+@@
+             <tru:NetProfit Currency='Currency symbol such as GBP or EUR'>Net profit</tru:NetProfit>
+ <!--DESCRIPTION of following node: Tax adjustments-->
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='Currency symbol such as GBP or EUR'>Private use</tru:PrivateUse>
+               <tru:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Balancing charges</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='Currency symbol such as GBP or EUR'>Electric charge-point allowance</tru:ElectricChargePointAllowance>
+               <tru:TotalAdditions Currency='Currency symbol such as GBP or EUR'>Total additions</tru:TotalAdditions>
+               <tru:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Capital allowances</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>Enhanced capital allowances</tru:EnhancedCapitalAllowances>
+             </tru:TaxAdjustments>
+             <tru:LossBroughtForward Currency='Currency symbol such as GBP or EUR'>Loss brought forward</tru:LossBroughtForward>
+@@
+             <tru:NetProfitLoss Currency='Currency symbol such as GBP or EUR'>Net profit loss</tru:NetProfitLoss>
+ <!--DESCRIPTION of following node: Tax adjustments-->
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='Currency symbol such as GBP or EUR'>Private use</tru:PrivateUse>
+               <tru:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Balancing charges</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='Currency symbol such as GBP or EUR'>Electric charge-point allowance</tru:ElectricChargePointAllowance>
++              <tru:TheStructureAndBuildingsAllowance Currency='Currency symbol such as GBP or EUR'>The Structure and Buildings Allowance</tru:TheStructureAndBuildingsAllowance>
+               <tru:TotalTaxAdditions Currency='Currency symbol such as GBP or EUR'>Total tax additions</tru:TotalTaxAdditions>
+               <tru:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Capital allowances</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>Enhanced capital allowances</tru:EnhancedCapitalAllowances>
+               <tru:CostsOfReplacingDomesticItems Currency='Currency symbol such as GBP or EUR'>Costs of replacing domestic items</tru:CostsOfReplacingDomesticItems>
+               <tru:TotalTaxReductions Currency='Currency symbol such as GBP or EUR'>Total tax reductions</tru:TotalTaxReductions>
+@@
+               <tru:NetProfitLoss Currency='Currency symbol such as GBP or EUR'>Net profit loss</tru:NetProfitLoss>
+ <!--DESCRIPTION of following node: Additions to net profit-->
+               <tru:AdditionsToNetProfit>
+                 <tru:PrivateUse Currency='Currency symbol such as GBP or EUR'>Private use</tru:PrivateUse>
+                 <tru:BalancingCharges Currency='Currency symbol such as GBP or EUR'>Balancing charges</tru:BalancingCharges>
++                <tru:ElectricChargePointAllowance Currency='Currency symbol such as GBP or EUR'>Electric charge-point allowance</tru:ElectricChargePointAllowance>
++                <tru:TheStructureAndBuildingsAllowance Currency='Currency symbol such as GBP or EUR'>The Structure and Buildings Allowance</tru:TheStructureAndBuildingsAllowance>
+                 <tru:TotalAdditions Currency='Currency symbol such as GBP or EUR'>Total additions</tru:TotalAdditions>
+               </tru:AdditionsToNetProfit>
+ <!--DESCRIPTION of following node: Deductions from net profit-->
+               <tru:DeductionsFromNetProfit>
+                 <tru:CapitalAllowances Currency='Currency symbol such as GBP or EUR'>Capital allowances</tru:CapitalAllowances>
+@@
+               <tru:ReliefVulnerableBeneficiaryNotInUK Currency='Currency symbol such as GBP or EUR'>Claim to special capital gains tax treatment where a vulnerable beneficiary election has effect - amount of relief claimed</tru:ReliefVulnerableBeneficiaryNotInUK>
+               <tru:AnnualExemptAmount Currency='Currency symbol such as GBP or EUR'>Annual exempt amount</tru:AnnualExemptAmount>
+               <tru:TaxableGains Currency='Currency symbol such as GBP or EUR'>Taxable gains</tru:TaxableGains>
+             </tru:OtherPropertyAssetsAndGains>
+             <tru:TaxableGainsThatQualifyForER Currency='Currency symbol such as GBP or EUR'>Taxable gains that qualify for ER</tru:TaxableGainsThatQualifyForER>
++            <tru:TaxableGainsQualifyingForInvestorsRelief Currency='Currency symbol such as GBP or EUR'>Taxable gains qualifying for Investors Relief</tru:TaxableGainsQualifyingForInvestorsRelief>
+             <tru:NumberOfTrusts>Number of trusts</tru:NumberOfTrusts>
+             <tru:DisabledPerson>Disabled person</tru:DisabledPerson>
+             <tru:EstimateValuationUsed>Estimate valuation used</tru:EstimateValuationUsed>
+             <tru:ReliefClaimed>Relief claimed</tru:ReliefClaimed>
+             <tru:ClaimingCloggedLosses>Claiming clogged losses</tru:ClaimingCloggedLosses>
+@@
+               </tru:PersonBecameNonResidentRow>
+             </tru:PersonBecameNonResident>
+ <!--DESCRIPTION of following node: Non-resident Capital Gains-->
+             <tru:NonresidentCapitalGains>
+               <tru:SubmittedNonresidentCGT>Tick box if submitted non-resident CGT return</tru:SubmittedNonresidentCGT>
+-              <tru:TaxableGainsOrLosses Currency='Currency symbol such as GBP or EUR'>Total taxable gains or losses from Non-resident Capital Gains</tru:TaxableGainsOrLosses>
+-              <tru:CGTalreadyCharged Currency='Currency symbol such as GBP or EUR'>Non-resident Capital Gains Tax already charged</tru:CGTalreadyCharged>
++              <tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty Currency='Currency symbol such as GBP or EUR'>Total taxable gains or losses from non-resident capital gains on UK residential property or properties</tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty Currency='Currency symbol such as GBP or EUR'>Total taxable gains or losses from non-resident capital gains on UK non-residential property or properties</tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals Currency='Currency symbol such as GBP or EUR'>Total taxable gains or losses from non-resident capital gains on indirect disposals of any UK property or land</tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals>
++              <tru:NRCGTalreadyPaid Currency='Currency symbol such as GBP or EUR'>Total non-resident Capital Gains Tax already paid</tru:NRCGTalreadyPaid>
+             </tru:NonresidentCapitalGains>
+ <!--DESCRIPTION of following node: Entrepreneurs' relief-->
+             <tru:EntrepreneursRelief>
+               <tru:ReliefClaimed>Relief claimed</tru:ReliefClaimed>
+               <tru:AmountClaimedOnGainsDeferredFromBefore23062010 Currency='Currency symbol such as GBP or EUR'>Amount claimed on gains deferred from before 23-06-2010</tru:AmountClaimedOnGainsDeferredFromBefore23062010>
+
+
+Trusts-schemaValidSample.xml-v1-0-To-v1-0
+
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1 SAtrust-v1-0.xsd' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'>
++<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1 SAtrust-v1-0.xsd' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'>
+   <hd:EnvelopeVersion>2.0</hd:EnvelopeVersion>
+   <hd:Header>
+     <hd:MessageDetails>
+       <hd:Class>HMRC-SAMPLE-CLASS</hd:Class>
+       <hd:Qualifier>request</hd:Qualifier>
+@@
+             <tru:CapitalAllowancesAndBalancingCharges>
+               <tru:CapitalAllowancesAtHigherRate Currency='GBP'>13.12</tru:CapitalAllowancesAtHigherRate>
+               <tru:BalancingChargesAtHigherRate Currency='GBP'>13.12</tru:BalancingChargesAtHigherRate>
+               <tru:CapitalAllowancesAtLowerRate Currency='GBP'>13.12</tru:CapitalAllowancesAtLowerRate>
+               <tru:BalancingChargesAtLowerRate Currency='GBP'>13.12</tru:BalancingChargesAtLowerRate>
++              <tru:ElectricChargePointAllowanceCapitalAllowances Currency='GBP'>13.12</tru:ElectricChargePointAllowanceCapitalAllowances>
++              <tru:TheStructureAndBuildingsAllowanceCapitalAllowances Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowanceCapitalAllowances>
++              <tru:ElectricChargePointAllowanceBalancingCharges Currency='GBP'>13.12</tru:ElectricChargePointAllowanceBalancingCharges>
+               <tru:OtherCapitalAllowances Currency='GBP'>13.12</tru:OtherCapitalAllowances>
+               <tru:BalancingChargesForOtherCapitalAllowances Currency='GBP'>13.12</tru:BalancingChargesForOtherCapitalAllowances>
+               <tru:TotalAllowances Currency='GBP'>13.12</tru:TotalAllowances>
+               <tru:TotalBalancingCharges Currency='GBP'>13.12</tru:TotalBalancingCharges>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+@@
+             </tru:Expenses>
+             <tru:NetProfit Currency='GBP'>13.12</tru:NetProfit>
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+               <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
+               <tru:TotalAdditions Currency='GBP'>13.12</tru:TotalAdditions>
+               <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+             </tru:TaxAdjustments>
+             <tru:LossBroughtForward Currency='GBP'>13.12</tru:LossBroughtForward>
+@@
+             </tru:Expenses>
+             <tru:NetProfitLoss Currency='GBP'>13.12</tru:NetProfitLoss>
+             <tru:TaxAdjustments>
+               <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+               <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++              <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
++              <tru:TheStructureAndBuildingsAllowance Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowance>
+               <tru:TotalTaxAdditions Currency='GBP'>13.12</tru:TotalTaxAdditions>
+               <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+               <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+               <tru:CostsOfReplacingDomesticItems Currency='GBP'>13.12</tru:CostsOfReplacingDomesticItems>
+               <tru:TotalTaxReductions Currency='GBP'>13.12</tru:TotalTaxReductions>
+@@
+               <tru:TotalExpenditure Currency='GBP'>13.12</tru:TotalExpenditure>
+               <tru:NetProfitLoss Currency='GBP'>13.12</tru:NetProfitLoss>
+               <tru:AdditionsToNetProfit>
+                 <tru:PrivateUse Currency='GBP'>13.12</tru:PrivateUse>
+                 <tru:BalancingCharges Currency='GBP'>13.12</tru:BalancingCharges>
++                <tru:ElectricChargePointAllowance Currency='GBP'>13.12</tru:ElectricChargePointAllowance>
++                <tru:TheStructureAndBuildingsAllowance Currency='GBP'>13.12</tru:TheStructureAndBuildingsAllowance>
+                 <tru:TotalAdditions Currency='GBP'>13.12</tru:TotalAdditions>
+               </tru:AdditionsToNetProfit>
+               <tru:DeductionsFromNetProfit>
+                 <tru:CapitalAllowances Currency='GBP'>13.12</tru:CapitalAllowances>
+                 <tru:EnhancedCapitalAllowances>yes</tru:EnhancedCapitalAllowances>
+@@
+               <tru:ReliefVulnerableBeneficiaryNotInUK Currency='GBP'>13.12</tru:ReliefVulnerableBeneficiaryNotInUK>
+               <tru:AnnualExemptAmount Currency='GBP'>13.12</tru:AnnualExemptAmount>
+               <tru:TaxableGains Currency='GBP'>13.12</tru:TaxableGains>
+             </tru:OtherPropertyAssetsAndGains>
+             <tru:TaxableGainsThatQualifyForER Currency='GBP'>13.12</tru:TaxableGainsThatQualifyForER>
++            <tru:TaxableGainsQualifyingForInvestorsRelief Currency='GBP'>13.12</tru:TaxableGainsQualifyingForInvestorsRelief>
+             <tru:NumberOfTrusts>10</tru:NumberOfTrusts>
+             <tru:DisabledPerson>yes</tru:DisabledPerson>
+             <tru:EstimateValuationUsed>yes</tru:EstimateValuationUsed>
+             <tru:ReliefClaimed>yes</tru:ReliefClaimed>
+             <tru:ClaimingCloggedLosses>yes</tru:ClaimingCloggedLosses>
+@@
+                 <tru:ChargeableGains Currency='GBP'>13.12</tru:ChargeableGains>
+               </tru:PersonBecameNonResidentRow>
+             </tru:PersonBecameNonResident>
+             <tru:NonresidentCapitalGains>
+               <tru:SubmittedNonresidentCGT>yes</tru:SubmittedNonresidentCGT>
+-              <tru:TaxableGainsOrLosses Currency='GBP'>13.12</tru:TaxableGainsOrLosses>
+-              <tru:CGTalreadyCharged Currency='GBP'>13.12</tru:CGTalreadyCharged>
++              <tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGonUKresidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty>
++              <tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals Currency='GBP'>13.12</tru:TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals>
++              <tru:NRCGTalreadyPaid Currency='GBP'>13.12</tru:NRCGTalreadyPaid>
+             </tru:NonresidentCapitalGains>
+             <tru:EntrepreneursRelief>
+               <tru:ReliefClaimed>yes</tru:ReliefClaimed>
+               <tru:AmountClaimedOnGainsDeferredFromBefore23062010 Currency='GBP'>13.12</tru:AmountClaimedOnGainsDeferredFromBefore23062010>
+               <tru:AmountOnOtherGains Currency='GBP'>13.12</tru:AmountOnOtherGains>
+
+
+Trusts.sch-v1-0-To-v1-0
+
+@@
+ 
+ <sch:schema queryBinding='exslt' xmlns:sch='http://purl.oclc.org/dsdl/schematron'>
+   <sch:title>Schematron for Trusts</sch:title>
+   <sch:ns prefix='hd' uri='http://www.govtalk.gov.uk/CM/envelope'></sch:ns>
+   <sch:ns prefix='dsig' uri='http://www.w3.org/2000/09/xmldsig#'></sch:ns>
+-  <sch:ns prefix='tru' uri='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'></sch:ns>
++  <sch:ns prefix='tru' uri='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'></sch:ns>
+ </sch:schema>
+
+
+SAtrust.xsd-v1-0-To-v1-0
+
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<xsd:schema version='1.0' elementFormDefault='qualified' attributeFormDefault='unqualified' id='SAtrust' targetNamespace='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:SA='http://www.govtalk.gov.uk/taxation/SA' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'>
++<xsd:schema version='1.0' elementFormDefault='qualified' attributeFormDefault='unqualified' id='SAtrust' targetNamespace='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:SA='http://www.govtalk.gov.uk/taxation/SA' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'>
+   <xsd:import namespace='http://www.govtalk.gov.uk/taxation/SA' schemaLocation='SAelements-v1-1.xsd'></xsd:import>
+   <xsd:annotation>
+     <xsd:appinfo>
+       <gms:Metadata xmlns:gms='http://www.govtalk.gov.uk/CM/gms-xs'>
+         <gms:Audience>e-service developers</gms:Audience>
+@@
+         <gms:Coverage>
+           <gms:Spatial>UK</gms:Spatial>
+         </gms:Coverage>
+         <gms:Coverage>
+           <gms:Temporal>
+-            <gms:BeginningDate>2018-04-06</gms:BeginningDate>
+-            <gms:EndDate>2019-04-05</gms:EndDate>
++            <gms:BeginningDate>2019-04-06</gms:BeginningDate>
++            <gms:EndDate>2020-04-05</gms:EndDate>
+           </gms:Temporal>
+         </gms:Coverage>
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>2007-02-07</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2018-09-18</gms:Modified>
++          <gms:Modified>2019-09-25</gms:Modified>
+         </gms:Date>
+         <gms:Identifier>TRU-1.0</gms:Identifier>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+@@
+         </gms:Relation>
+         <gms:Relation>
+           <gms:ProvidesDefinitionOf>SAtrust_YesType</gms:ProvidesDefinitionOf>
+         </gms:Relation>
+         <gms:Rights>
+-          <gms:Copyright>(C) Crown Copyright 2001-2018</gms:Copyright>
++          <gms:Copyright>(C) Crown Copyright 2001-2019</gms:Copyright>
+         </gms:Rights>
+         <gms:Subject>Economics, Finance and Tax</gms:Subject>
+         <gms:Title>SA Trust Return Transaction Schema</gms:Title>
+         <gms:Type>message</gms:Type>
+       </gms:Metadata>
+@@
+                   <xsd:appinfo>
+                     <SA:Box>[5.17]</SA:Box>
+                   </xsd:appinfo>
+                 </xsd:annotation>
+               </xsd:element>
++              <xsd:element name='TaxableGainsQualifyingForInvestorsRelief' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                <xsd:annotation>
++                  <xsd:appinfo>
++                    <SA:Box>[5.17A]</SA:Box>
++                  </xsd:appinfo>
++                </xsd:annotation>
++              </xsd:element>
+               <xsd:element name='NumberOfTrusts' type='xsd:positiveInteger' minOccurs='0' maxOccurs='1'>
+                 <xsd:annotation>
+                   <xsd:appinfo>
+                     <SA:Box>[5.18]</SA:Box>
+                   </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[5.35]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
+-                    <xsd:element name='TaxableGainsOrLosses' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGonUKresidentialProperty' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[5.36]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
+-                    <xsd:element name='CGTalreadyCharged' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[5.36A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[5.36B]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='NRCGTalreadyPaid' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[5.37]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+@@
+                               <xsd:appinfo>
+                                 <SA:Box>[4.21]</SA:Box>
+                               </xsd:appinfo>
+                             </xsd:annotation>
+                           </xsd:element>
++                          <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                            <xsd:annotation>
++                              <xsd:appinfo>
++                                <SA:Box>[4.21A]</SA:Box>
++                              </xsd:appinfo>
++                            </xsd:annotation>
++                          </xsd:element>
++                          <xsd:element name='TheStructureAndBuildingsAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                            <xsd:annotation>
++                              <xsd:appinfo>
++                                <SA:Box>[4.21B]</SA:Box>
++                              </xsd:appinfo>
++                            </xsd:annotation>
++                          </xsd:element>
+                           <xsd:element name='TotalAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                             <xsd:annotation>
+                               <xsd:appinfo>
+                                 <SA:Box>[4.22]</SA:Box>
+                               </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[1.17]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowanceCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.18]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TheStructureAndBuildingsAllowanceCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.18A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowanceBalancingCharges' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.19]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='OtherCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[1.20]</SA:Box>
+                         </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[3.11]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.11A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='TotalAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[3.12]</SA:Box>
+                         </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[3.33]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.33A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TheStructureAndBuildingsAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.33B]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='TotalTaxAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[3.34]</SA:Box>
+                         </xsd:appinfo>
+
+
+SAelements.xsd-v1-1-To-v1-1
+
+@@
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>07-02-07</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2018-09-18</gms:Modified>
++          <gms:Modified>2019-09-25</gms:Modified>
+         </gms:Date>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+           <gms:ProvidesDefinitionOf>BoxType</gms:ProvidesDefinitionOf>
+
+
+envelope.xsd-v2-0-To-v2-0
+
+@@
+     <xsd:documentation>This schema is used as the envelope for all GovTalk messages.  It is described in detail in a separate document on the GovTalk web site.</xsd:documentation>
+     <xsd:appinfo>
+       <gt:KeyWords xmlns:gt='http://www.govtalk.gov.uk/CM/core'>GovTalk, header, envelope</gt:KeyWords>
+       <gms:Metadata xmlns:gms='http://www.govtalk.gov.uk/CM/gms-xs'>
+         <gms:Date>
+-          <gms:Modified>2018-09-18</gms:Modified>
++          <gms:Modified>2019-09-25</gms:Modified>
+         </gms:Date>
+         <gms:Relation>
+           <gms:Requires>xmldsig-core-schema.xsd</gms:Requires>
+         </gms:Relation>
+         <gms:Relation>

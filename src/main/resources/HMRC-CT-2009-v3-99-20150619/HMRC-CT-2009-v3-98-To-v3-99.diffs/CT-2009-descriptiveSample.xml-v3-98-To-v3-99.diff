@@ -1,0 +1,13 @@
+@@
+ <!--the following siblings are subject to a 'choice', please refer to the schema-->
+                 <ct:Profit Currency='Currency symbol such as GBP or EUR'>Profit</ct:Profit>
+                 <ct:Loss Currency='Currency symbol such as GBP or EUR'>Loss</ct:Loss>
+ <!--end of 'choice'-->
+               </ct:Other>
+-<!--DESCRIPTION of following node: The profit or loss shown in the companys accounts in repsect of the disposal of tonnage tax assets, whcih would otherwise be computed under the capital gains tax rules-->
++<!--DESCRIPTION of following node: The profit or loss shown in the company's accounts in respect of the disposal of tonnage tax assets, which would otherwise be computed under the capital gains tax rules-->
+               <ct:DisposalOfAssets>
+ <!--the following siblings are subject to a 'choice', please refer to the schema-->
+                 <ct:Profit Currency='Currency symbol such as GBP or EUR'>Profit</ct:Profit>
+                 <ct:Loss Currency='Currency symbol such as GBP or EUR'>Loss</ct:Loss>
+ <!--end of 'choice'-->

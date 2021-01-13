@@ -1,0 +1,200 @@
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<xsd:schema version='1.0' elementFormDefault='qualified' attributeFormDefault='unqualified' id='SAtrust' targetNamespace='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:SA='http://www.govtalk.gov.uk/taxation/SA' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/18-19/1'>
++<xsd:schema version='1.0' elementFormDefault='qualified' attributeFormDefault='unqualified' id='SAtrust' targetNamespace='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:SA='http://www.govtalk.gov.uk/taxation/SA' xmlns:tru='http://www.govtalk.gov.uk/taxation/SA/SA900/19-20/1'>
+   <xsd:import namespace='http://www.govtalk.gov.uk/taxation/SA' schemaLocation='SAelements-v1-1.xsd'></xsd:import>
+   <xsd:annotation>
+     <xsd:appinfo>
+       <gms:Metadata xmlns:gms='http://www.govtalk.gov.uk/CM/gms-xs'>
+         <gms:Audience>e-service developers</gms:Audience>
+@@
+         <gms:Coverage>
+           <gms:Spatial>UK</gms:Spatial>
+         </gms:Coverage>
+         <gms:Coverage>
+           <gms:Temporal>
+-            <gms:BeginningDate>2018-04-06</gms:BeginningDate>
+-            <gms:EndDate>2019-04-05</gms:EndDate>
++            <gms:BeginningDate>2019-04-06</gms:BeginningDate>
++            <gms:EndDate>2020-04-05</gms:EndDate>
+           </gms:Temporal>
+         </gms:Coverage>
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>2007-02-07</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2018-09-18</gms:Modified>
++          <gms:Modified>2019-09-25</gms:Modified>
+         </gms:Date>
+         <gms:Identifier>TRU-1.0</gms:Identifier>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+@@
+         </gms:Relation>
+         <gms:Relation>
+           <gms:ProvidesDefinitionOf>SAtrust_YesType</gms:ProvidesDefinitionOf>
+         </gms:Relation>
+         <gms:Rights>
+-          <gms:Copyright>(C) Crown Copyright 2001-2018</gms:Copyright>
++          <gms:Copyright>(C) Crown Copyright 2001-2019</gms:Copyright>
+         </gms:Rights>
+         <gms:Subject>Economics, Finance and Tax</gms:Subject>
+         <gms:Title>SA Trust Return Transaction Schema</gms:Title>
+         <gms:Type>message</gms:Type>
+       </gms:Metadata>
+@@
+                   <xsd:appinfo>
+                     <SA:Box>[5.17]</SA:Box>
+                   </xsd:appinfo>
+                 </xsd:annotation>
+               </xsd:element>
++              <xsd:element name='TaxableGainsQualifyingForInvestorsRelief' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                <xsd:annotation>
++                  <xsd:appinfo>
++                    <SA:Box>[5.17A]</SA:Box>
++                  </xsd:appinfo>
++                </xsd:annotation>
++              </xsd:element>
+               <xsd:element name='NumberOfTrusts' type='xsd:positiveInteger' minOccurs='0' maxOccurs='1'>
+                 <xsd:annotation>
+                   <xsd:appinfo>
+                     <SA:Box>[5.18]</SA:Box>
+                   </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[5.35]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
+-                    <xsd:element name='TaxableGainsOrLosses' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGonUKresidentialProperty' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[5.36]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
+-                    <xsd:element name='CGTalreadyCharged' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGonUKnonResidentialProperty' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[5.36A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TaxableGainsOrLossesFromNRCGnonResidentCapitalGainsOnIndirectDisposals' type='tru:SAtrust_SAmonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[5.36B]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='NRCGTalreadyPaid' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[5.37]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+@@
+                               <xsd:appinfo>
+                                 <SA:Box>[4.21]</SA:Box>
+                               </xsd:appinfo>
+                             </xsd:annotation>
+                           </xsd:element>
++                          <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                            <xsd:annotation>
++                              <xsd:appinfo>
++                                <SA:Box>[4.21A]</SA:Box>
++                              </xsd:appinfo>
++                            </xsd:annotation>
++                          </xsd:element>
++                          <xsd:element name='TheStructureAndBuildingsAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                            <xsd:annotation>
++                              <xsd:appinfo>
++                                <SA:Box>[4.21B]</SA:Box>
++                              </xsd:appinfo>
++                            </xsd:annotation>
++                          </xsd:element>
+                           <xsd:element name='TotalAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                             <xsd:annotation>
+                               <xsd:appinfo>
+                                 <SA:Box>[4.22]</SA:Box>
+                               </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[1.17]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowanceCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.18]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TheStructureAndBuildingsAllowanceCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.18A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowanceBalancingCharges' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[1.19]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='OtherCapitalAllowances' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[1.20]</SA:Box>
+                         </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[3.11]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.11A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='TotalAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[3.12]</SA:Box>
+                         </xsd:appinfo>
+@@
+                         <xsd:appinfo>
+                           <SA:Box>[3.33]</SA:Box>
+                         </xsd:appinfo>
+                       </xsd:annotation>
+                     </xsd:element>
++                    <xsd:element name='ElectricChargePointAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.33A]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
++                    <xsd:element name='TheStructureAndBuildingsAllowance' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
++                      <xsd:annotation>
++                        <xsd:appinfo>
++                          <SA:Box>[3.33B]</SA:Box>
++                        </xsd:appinfo>
++                      </xsd:annotation>
++                    </xsd:element>
+                     <xsd:element name='TotalTaxAdditions' type='tru:SAtrust_SAnonNegativeMonetaryStructure' minOccurs='0' maxOccurs='1'>
+                       <xsd:annotation>
+                         <xsd:appinfo>
+                           <SA:Box>[3.34]</SA:Box>
+                         </xsd:appinfo>

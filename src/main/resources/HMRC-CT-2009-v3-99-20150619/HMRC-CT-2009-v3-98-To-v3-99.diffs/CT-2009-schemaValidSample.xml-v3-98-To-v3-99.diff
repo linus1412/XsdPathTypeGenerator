@@ -1,0 +1,10 @@
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/CT/3 CT-2009-v3-98.xsd' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/3' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope'>
++<hd:GovTalkMessage xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.govtalk.gov.uk/CM/envelope envelope-v2-0-HMRC.xsd http://www.govtalk.gov.uk/taxation/CT/3 CT-2009-v3-99.xsd' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/3' xmlns:hd='http://www.govtalk.gov.uk/CM/envelope'>
+   <hd:EnvelopeVersion>2.0</hd:EnvelopeVersion>
+   <hd:Header>
+     <hd:MessageDetails>
+       <hd:Class>HMRC-SAMPLE-CLASS</hd:Class>
+       <hd:Qualifier>request</hd:Qualifier>

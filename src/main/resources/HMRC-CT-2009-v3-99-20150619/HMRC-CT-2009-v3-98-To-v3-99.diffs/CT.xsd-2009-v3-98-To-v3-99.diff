@@ -1,0 +1,36 @@
+@@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<xsd:schema version='3.98' elementFormDefault='qualified' attributeFormDefault='unqualified' id='CT' targetNamespace='http://www.govtalk.gov.uk/taxation/CT/3' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/3'>
++<xsd:schema version='3.99' elementFormDefault='qualified' attributeFormDefault='unqualified' id='CT' targetNamespace='http://www.govtalk.gov.uk/taxation/CT/3' xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:ct='http://www.govtalk.gov.uk/taxation/CT/3'>
+   <xsd:annotation>
+     <xsd:documentation>HMRC FBI Corporation Tax Return</xsd:documentation>
+     <xsd:appinfo>
+       <gt:KeyWords xmlns:gt='http://www.govtalk.gov.uk/CM/core'>taxation, Corporation, FBI, File By Internet, HMRC, CT600, CT600A, CT600B, CT600C, CT600D, CT600E, CT600F, CT600G, CT600H, CT600I, CT600J</gt:KeyWords>
+       <gms:Metadata xmlns:gms='http://www.govtalk.gov.uk/CM/gms-xs'>
+@@
+         <gms:Creator>HMRC</gms:Creator>
+         <gms:Date>
+           <gms:Created>2001-10-04</gms:Created>
+         </gms:Date>
+         <gms:Date>
+-          <gms:Modified>2015-01-22</gms:Modified>
++          <gms:Modified>2015-06-19</gms:Modified>
+         </gms:Date>
+         <gms:Identifier>{http://www.govtalk.gov.uk/taxation/CT/3}CT</gms:Identifier>
+         <gms:Language>[ISO 639-2/B] ENG</gms:Language>
+         <gms:Publisher>HMRC</gms:Publisher>
+         <gms:Relation>
+@@
+                                     <xsd:documentation>Amendment - comps already submitted</xsd:documentation>
+                                   </xsd:annotation>
+                                 </xsd:enumeration>
+                                 <xsd:enumeration value='Other - PDF attached with explanation'>
+                                   <xsd:annotation>
+-                                    <xsd:documentation>Other - PDF attached with explanatio</xsd:documentation>
++                                    <xsd:documentation>Other - PDF attached with explanation</xsd:documentation>
+                                   </xsd:annotation>
+                                 </xsd:enumeration>
+                               </xsd:restriction>
+                             </xsd:simpleType>
+                           </xsd:element>

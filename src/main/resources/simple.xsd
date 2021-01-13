@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://smitek.co.uk/example/1">
+    <xsd:element name="employee">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string"/>
+                <xsd:element name="age" type="xsd:integer"/>
+                <xsd:element name="started" type="xsd:date"/>
+                <xsd:element name="department">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="name" type="xsd:string"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="code" type="xsd:integer"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="active" type="xsd:boolean"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
