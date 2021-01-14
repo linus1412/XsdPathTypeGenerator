@@ -1,11 +1,6 @@
 package uk.co.smitek;
 
-import com.sun.tools.javac.util.List;
-import lombok.Getter;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

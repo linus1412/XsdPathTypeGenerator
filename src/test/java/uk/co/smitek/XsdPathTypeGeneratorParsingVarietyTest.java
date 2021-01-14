@@ -1,10 +1,11 @@
 package uk.co.smitek;
 
-import com.sun.tools.javac.util.List;
 import lombok.Getter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -14,7 +15,7 @@ class XsdPathTypeGeneratorParsingVarietyTest {
     @Test
     void elementWithAttributeXsdTypes() {
 
-        final List<Scenario> variety = List.of(
+        final List<Scenario> variety = Arrays.asList(
             new Scenario(
                 "IRenvelope",
                 "/HMRC-Trusts-2020-v1-0-20190925/SAtrust-v1-0.xsd",
